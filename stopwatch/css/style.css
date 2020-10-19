@@ -1,0 +1,63 @@
+body {
+	text-align : center;
+	margin-top : 200px;
+}
+
+#timer {
+	font-family: "Lato";
+	font-size : 300px;
+	font-weight : 200;
+}
+
+button {
+	width: 300px;
+	height: 55px;
+	position: relative;
+	top: -150px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button {
+	color: #000000;
+	background: transparent;
+	border: 2px solid #000000;
+	border-radius: 6px;
+}
+
+button:hover {
+	background-color: #000000;
+	color: white;
+	transition-duration: 0.4s;
+}
+
+button {
+	font-size: 2.5em;
+	font-family: "Lato";
+	font-weight: 200;
+}
+
+button-work { 
+	text-align: center; 
+	vertical-align: middle;
+	display: table-cell;
+	}
+
+
+h1 {
+  font-weight: 200;
+  font-size: 300px;
+  font-family: "Lato";
+  position: relative;
+  top: -150px;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 30px;
+	font-family: "Lato";
+	position: relative;
+	top: -200px;
+}
