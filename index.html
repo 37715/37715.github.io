@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="testicon.png" type="image/png" />
+	<title>Speed Timer</title>
+	<meta charset="UTF-8">
+	<title>Stopwatch</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+<body>
+    
+    <h1>VX Timer</h1>
+	<h2>press spacebar to start and stop the timer.</h2>
+    <h1 id="timer">00 : 00 : 000</h1>
+	<button id="reset">reset</button>
+	<script src="js/stopwatch.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	    window.addEventListener('keydown', function(event) {  
+    if (event.which === 32) {
+        event.preventDefault();
+        if(watch.isOn)
+            watch.stop();
+        else
+            watch.start();
+    }
+});
+</script>
+</body>
+</html>
